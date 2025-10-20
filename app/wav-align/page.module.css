@@ -1,0 +1,5 @@
+/* styles/globals.css or in a styled-jsx block */
+.option {
+    position: fixed;
+    left: 0;
+}

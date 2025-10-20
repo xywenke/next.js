@@ -24,3 +24,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+button {
+  margin: 0 8px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  left: 0;
+  right: 0;
+}
