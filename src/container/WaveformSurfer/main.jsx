@@ -7,7 +7,7 @@ import styles from './main.module.css'
 
 function WaveformSurfer({ src, time=0, widthzoom=20, style={} }) {
 
-    console.log('waveform surfer component: ', style)
+    // console.log('waveform surfer component: ', style)
 
     const containerRef = useRef(null)
     const wavesurfer = useRef(null)

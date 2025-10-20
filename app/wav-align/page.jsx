@@ -83,6 +83,7 @@ function WavAlign() {
                 <button
                     onClick={e => switchVoice(-1, e)}
                 >Previous</button>
+                <span>voice: {voiceIndex+1} / {voices.length}</span>
                 <button
                     onClick={e => switchVoice(1, e)}
                 >Next</button>
